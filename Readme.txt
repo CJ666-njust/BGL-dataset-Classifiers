@@ -17,7 +17,8 @@ scikit-learn==0.24.2
 完整代码见：
 
 由于空间限制，本次提交的代码仅包含BGL-2k的数据集和编码结果，以及BGL-100k的数据集。
-BGL-100k的编码结果可从完整代码处下载。
+BGL-100k的编码结果可从百度网盘下载。
+链接：https://pan.baidu.com/s/1X-218gfLiYlFRJw43YcOLQ?pwd=o5cf
 
 配置好完整代码的环境后，只需执行main.py即可。默认使用五种算法，对BGL-2k数据集进行十次分类。
 若要执行BGL-100k的分类，需下载BGL-100k的编码结果后，修改main中的root_dir和embed_dir为对应路径后执行。
